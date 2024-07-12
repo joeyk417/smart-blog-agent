@@ -18,3 +18,35 @@ This project leverages the power of large language models (LLMs) and automated s
    git clone https://github.com/your-repository/ai-healthcare-research.git
    cd ai-healthcare-research
    ```
+
+2. **Install Dependencies**
+
+Ensure you have Python 3.8+ installed, then run:
+
+```pip install -r requirements.txt
+
+```
+
+3. **Environment Variables**
+
+Create a .env file in the root directory and populate it with necessary environment variables, if any.
+
+4. **Running the Project**
+
+Execute the main script to start the research and writing process:
+
+```python main.py
+
+```
+
+## How It Works
+
+- **Initialization:** The project starts by loading environment variables and setting up the LLM and search tool.
+- **Agent Creation:** Two agents, a senior researcher and a writer, are created with specific roles, goals, and tools.
+- **Task Definition:** Research and writing tasks are defined, detailing the expectations and outputs for each agent.
+  VCrew Formation:\*\* A crew is formed with the agents and tasks, and the process is set to sequential execution.
+- **Execution:** The crew kicks off the process, executing tasks in sequence and outputting the results.
+
+## Customization
+
+You can customize the project by modifying the agents' goals, the LLM model used, or the search tool. Additionally, you can adjust the task descriptions and expected outputs to focus on different aspects of AI in healthcare.
