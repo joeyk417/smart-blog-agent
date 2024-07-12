@@ -42,7 +42,7 @@ This project leverages the power of large language models (LLMs) and automated s
 - **Initialization:** The project starts by loading environment variables and setting up the LLM and search tool.
 - **Agent Creation:** Two agents, a senior researcher and a writer, are created with specific roles, goals, and tools.
 - **Task Definition:** Research and writing tasks are defined, detailing the expectations and outputs for each agent.
-  VCrew Formation:\*\* A crew is formed with the agents and tasks, and the process is set to sequential execution.
+- **Crew Formation:** A crew is formed with the agents and tasks, and the process is set to sequential execution.
 - **Execution:** The crew kicks off the process, executing tasks in sequence and outputting the results.
 
 ## Customization
