@@ -26,8 +26,7 @@ This project leverages the power of large language models (LLMs) and automated s
    ```
 
 3. **Environment Variables**
-
-Create a .env file in the root directory and populate it with necessary environment variables, if any.
+   Create a .env file in the root directory and populate it with necessary environment variables, if any.
 
 4. **Running the Project**
 
