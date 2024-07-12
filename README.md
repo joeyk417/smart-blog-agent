@@ -24,7 +24,6 @@ This project leverages the power of large language models (LLMs) and automated s
 Ensure you have Python 3.8+ installed, then run:
 
 ```pip install -r requirements.txt
-
 ```
 
 3. **Environment Variables**
@@ -36,7 +35,6 @@ Create a .env file in the root directory and populate it with necessary environm
 Execute the main script to start the research and writing process:
 
 ```python main.py
-
 ```
 
 ## How It Works
